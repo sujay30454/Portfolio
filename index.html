@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" />
+    <title>Sujay Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+
+<!-- Navbar -->
+<nav>
+    <div class="nav-container">
+        <div class="logo" data-aos="zoom-in" data-aos-duration="1000">
+            <span>NEERUKONDA SUJAY CHOWDARY</span>
+        </div>
+        <div class="links">
+            <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                <a href="#about">About</a>
+            </div>
+            <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                <a href="#skills">Skills</a>
+            </div>
+            <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                <a href="#projects">Projects</a>
+            </div>
+            <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+                <a href="#certifications">Certifications</a>
+            </div>
+            <div class="link contact-btn" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+        <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+    </div>
+    <div class="dropdown">
+        <div class="links">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#certifications">Certifications</a>
+            <a href="#contact">Contact</a>
+            <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+        </div>
+    </div>
+</nav>
+
+<!-- About Section -->
+<section id="about">
+    <div class="main-container">
+        <div class="image" data-aos="zoom-in-right" data-aos-duration="2500">
+            <img src="main1.png" alt="Profile Image" />
+        </div>
+        <div class="content">
+            <h1 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="800">
+                Hey I'm <span>Sujay</span>
+            </h1>
+            <div class="typewriter" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="900">
+                I'm a  <span></span>
+            </div>
+            <p data-aos="flip-up" data-aos-duration="1000" data-aos-delay="1000">
+                I am passionate about turning ideas into impactful real-world solutions by developing innovative and efficient software. I thrive on solving complex problems and creating seamless user experiences through thoughtful design and robust code. Continuously driven by curiosity, I explore new technologies and stay updated with industry trends to enhance my skills and deliver scalable, secure, and user-friendly applications. My goal is to create solutions that not only meet user needs but also make a meaningful difference.
+            </p>
+            <div class="social-links" data-aos="flip-down" data-aos-duration="1000" data-aos-delay="1200">
+                <a href="https://github.com/sujay30454"><i class="fa-brands fa-github"></i></a>
+                
+                <a href="https://www.linkedin.com/in/sujay-chowdary-320316249/"><i class="fa-brands fa-linkedin"></i></a>
+                
+            </div>
+            <div class="btn" data-aos="zoom-out-left" data-aos-duration="1000" data-aos-delay="1300">
+                <a href="https://drive.google.com/file/d/1JvQcszvcvoIDjJgjAxwx5HBaSyynObE4/view?usp=sharing" target="_blank">
+                    <button>Download CV</button>
+                </a>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills">
+    <h2 class="skills-heading" data-aos="fade-up" data-aos-duration="1000">My Skills</h2>
+    <div class="skills-container">
+        <div class="skills-container">
+            <!-- HTML -->
+            <div class="skill" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">
+                <div class="outer-circle" style="border-color: #ff4d4d">
+                    <div class="inner-circle">
+                        <span>98%</span>
+                    </div>
+                </div>
+                <h3>HTML</h3>
+                <p>Structuring web content effectively.</p>
+            </div>
+        
+            <!-- React -->
+            <div class="skill" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
+                <div class="outer-circle" style="border-color: #61dafb">
+                    <div class="inner-circle">
+                        <span>70%</span>
+                    </div>
+                </div>
+                <h3>React</h3>
+                <p>Building interactive UIs with components.</p>
+            </div>
+        
+            <!-- Java -->
+            <div class="skill" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400">
+                <div class="outer-circle" style="border-color: #f89820">
+                    <div class="inner-circle">
+                        <span>90%</span>
+                    </div>
+                </div>
+                <h3>Java</h3>
+                <p>Object-oriented programming and backend development.</p>
+            </div>
+        
+            <!-- C -->
+            <div class="skill" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500">
+                <div class="outer-circle" style="border-color: #00599c">
+                    <div class="inner-circle">
+                        <span>85%</span>
+                    </div>
+                </div>
+                <h3>C</h3>
+                <p>Low-level programming and system development.</p>
+            </div>
+        
+            <!-- Python -->
+            <div class="skill" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="600">
+                <div class="outer-circle" style="border-color: #3776ab">
+                    <div class="inner-circle">
+                        <span>92%</span>
+                    </div>
+                </div>
+                <h3>Python</h3>
+                <p>Scripting, data analysis, and machine learning.</p>
+            </div>
+        
+            <!-- JavaScript -->
+            <div class="skill" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="700">
+                <div class="outer-circle" style="border-color: #f7df1e">
+                    <div class="inner-circle">
+                        <span>80%</span>
+                    </div>
+                </div>
+                <h3>JavaScript</h3>
+                <p>Enhancing web interactivity and behavior.</p>
+            </div>
+        
+            <!-- DBMS -->
+            <div class="skill" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="800">
+                <div class="outer-circle" style="border-color: #ff5733">
+                    <div class="inner-circle">
+                        <span>88%</span>
+                    </div>
+                </div>
+                <h3>DBMS</h3>
+                <p>Designing and managing relational databases.</p>
+            </div>
+        </div>
+        
+
+        <!-- Add other skills similarly -->
+
+    </div>
+</section>
+
+<!-- Other Sections (Projects, Certifications, Contact) -->
+<section id="projects">
+    <h2 class="projects-heading">Projects</h2>
+    <div class="project-container">
+        <div class="project-card">
+            <h3>E-Commerce Store</h3>
+            <p class="tools"><strong>Tools:</strong> Node.js, React.js, Firebase</p>
+            <p class="description">
+                A fully functional e-commerce platform that allows users to browse products, add items to the cart, and securely complete transactions. Features include user authentication, real-time database updates, and a dynamic product catalog.
+            </p>
+        </div>
+        <div class="project-card">
+            <h3>Peer Review</h3>
+            <p class="tools"><strong>Tools:</strong> Spring Boot, MySQL</p>
+            <p class="description">
+                A web-based system that streamlines the peer review process by enabling users to submit papers, assign reviewers, and provide structured feedback. The platform ensures fair evaluation and efficient management of review workflows.
+            </p>
+        </div>
+        <div class="project-card">
+            <h3>Hotel Management</h3>
+            <p class="tools"><strong>Tools:</strong> React.js, Firebase</p>
+            <p class="description">
+                A hotel management system that facilitates room booking, customer check-ins/check-outs, and real-time availability tracking. The system features a user-friendly dashboard for hotel administrators and seamless integration with cloud storage.
+            </p>
+        </div>
+    </div>
+</section>
+
+
+
+<section id="certifications">
+    <h2>Global Certifications</h2>
+    <div class="cert-container">
+        <div class="cert-card">
+            <span class="cert-tag cert-tag-yellow">01</span>
+            <div class="cert-content">
+                <h3>AWS Certified</h3>
+                <p>Completed AWS CLOUD PRACTIONER Certification.</p>
+                <a href="https://www.credly.com/badges/498631d7-d04b-4500-9dbc-ea8743d0da55/public_url" class="cert-btn" target="_blank">View Certificate</a>
+            </div>
+        </div>
+        <div class="cert-card">
+            <span class="cert-tag cert-tag-green">02</span>
+            <div class="cert-content">
+                <h3>RED HAT</h3>
+                <p>Earned RED HAT EX183 Certification.</p>
+                <a href="https://www.credly.com/badges/8761df65-86fc-45ce-a75e-ddb99988a1f4/public_url" class="cert-btn" target="_blank">View Certificate</a>
+            </div>
+        </div>
+        <div class="cert-card">
+            <span class="cert-tag cert-tag-blue">03</span>
+            <div class="cert-content">
+                <h3>SALESFORCE</h3>
+                <p>Salesforce Certified AI Associate.</p>
+                <a href="https://trailhead.salesforce.com/en/credentials/certification-detail-print/?searchString=vXpMvauew7WfjNIJgCVkaOg2Gn569uJSL5f/HFqXVvwZo+uo7qIxSJvShA4g+mzb" class="cert-btn" target="_blank">View Certificate</a>
+            </div>
+        </div>
+        <div class="cert-card">
+            <span class="cert-tag cert-tag-black">04</span>
+            <div class="cert-content">
+                <h3>ORACLE</h3>
+                <p>Oracle Cloud Infrastructure Architect Associate</p>
+                <a href="https://www.linkedin.com/posts/sujay-chowdary_oraclecloud-cloudcertification-oci-activity-7176163167486537728-gR5C?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD1y70gBsJU4paUq0DrXcxpGrlfnC2pd3Dk" class="cert-btn" target="_blank">View Certificate</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="contact-container">
+        <h2>Contact Me</h2>
+        <p>I'd love to hear from you! Feel free to reach out.</p>
+        
+        <div class="contact-details">
+            <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <span>+91 8247895946</span> <!-- Replace with your actual phone number -->
+            </div>
+            <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <span>sujaychowdary800@gmail.com</span> <!-- Replace with your actual email -->
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Scripts -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init({ offset: 0 });
+
+    function hamburg() {
+        document.querySelector(".dropdown").style.transform = "translateY(0)";
+    }
+
+    function cancel() {
+        document.querySelector(".dropdown").style.transform = "translateY(-500px)";
+    }
+
+    // Smooth Scroll
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            const target = document.querySelector(this.getAttribute('href'));
+            if (target) {
+                window.scrollTo({
+                    top: target.offsetTop - 50,
+                    behavior: 'smooth'
+                });
+            }
+        });
+    });
+</script>
+
+</body>
+</html>
